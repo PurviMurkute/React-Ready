@@ -1,10 +1,13 @@
-import React from 'react'
+import { Route, Routes } from "react-router"
+import Home from "./views/Home"
 
 const App = () => {
   return (
-    <div className='text-center'>
-      App 
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </>
   )
 }
 
