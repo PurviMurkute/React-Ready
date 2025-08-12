@@ -6,7 +6,7 @@ const Button = ({btnText, onClick, icon}) => {
     }
   return (
     <div>
-      <button className='bg-[#38bdf8] text-[#0e172e] font-medium px-5 py-2 rounded-lg my-5 cursor-pointer' onClick={onClick}>{btnText}{icons[icon]}</button>
+      <button className='bg-[#b1e3f8] text-[#0e172e] font-medium px-5 py-2 rounded-lg my-5 cursor-pointer' onClick={onClick}>{btnText}{icons[icon]}</button>
     </div>
   )
 }
